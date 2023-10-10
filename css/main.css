@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+div {
+    text-align: center;
+
+    color: red;
+}
+
+
+/*div container vazifasini bajaradi */
+
+
+
+#text {
+    color: blue;
+}
+
+/*       *{ }     yulduzcha orqali biz hamma elementalarga stil berish mumkin. */
+
+/* id teg uchun bir marta ishlatiladi uni #text mashu ko'rinishida qilamiz*/
+/* class qilish uchun nuqta bilan chaqiramiz */
+/* id yoki class berganimizda html end tag labels div oxirida qaysi clas va id borligini aytib turadi */
+/* ul ni yoki olni nuqtalarini yoqotish uchun list-sytle:none; */
+/* li larni ko'paytirish uchun shift+alt+strelka pastga qaragan bo'lishi kerak */
+.text1 {
+    color: blueviolet;
+    border: 10px solid red;
+    border-radius: 50px;
+
+}
+
+.text2 {
+    color: chocolate;
+    border: 20px solid green;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+.text3 {
+    color: pink;
+    border: 5px dashed yellow;
+    border-radius: 50px;
+
+}
+
+.link {
+    text-transform: capitalize;
+    text-decoration: solid;
+
+}
